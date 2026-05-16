@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Web — Helping brands grow online</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for clean SaaS style icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Floating Navbar -->
+    <header class="navbar-container">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">QUANTUM <span class="text-gradient">WEB</span></span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-btn-mobile">Get In Touch</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Switch -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-toggle-track">
+                        <span class="theme-toggle-ball">
+                            <i data-lucide="sun" class="icon-sun"></i>
+                            <i data-lucide="moon" class="icon-moon"></i>
+                        </span>
+                    </span>
+                </button>
+
+                <a href="#contact" class="btn btn-secondary nav-cta">Get In Touch</a>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i data-lucide="menu" id="menuIcon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section section-padding">
+        <div class="container hero-container">
+            <div class="hero-badge reveal">
+                <span class="badge-dot"></span> Next-Gen Digital Production Engine
+            </div>
+            <h1 class="hero-title reveal">
+                Helping brands <br><span class="text-gradient">grow online</span>
+            </h1>
+            <p class="hero-subtitle reveal">
+                We engineer elite web infrastructures and hyper-optimized marketing systems. No bloated processes—just pure, high-performance execution designed to convert attention into capital.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="#contact" class="btn btn-primary">Initiate Onboarding</a>
+                <a href="#portfolio" class="btn btn-secondary">Visual Portfolio <i data-lucide="arrow-up-right"></i></a>
+            </div>
+
+            <!-- Advanced Enterprise Metrics (No Raw "0" counters or generic labels) -->
+            <div class="hero-stats grid-3 reveal">
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="99">100</h3>
+                    <p class="stat-label">Performance Core Index</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="8">100</h3>
+                    <p class="stat-label">Core Tech Matrix Disciplines</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-target="100">100</h3>
+                    <p class="stat-label">Production Operational Speed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding border-top">
+        <div class="container grid-2">
+            <div class="reveal">
+                <p class="section-tag">Operating Blueprint</p>
+                <h2 class="section-title">Engineered for absolute architectural dominance</h2>
+            </div>
+            <div class="about-content reveal">
+                <p class="text-muted">
+                    At Quantum Web, we treat the digital ecosystem as an exact science. We completely bypass the bloated, low-tier templates of standard agencies to operate exclusively at the razor edge of pure layout development and mathematical content strategies.
+                </p>
+                <p class="text-muted">
+                    Whether you require a highly complex product canvas or conversion-focused asset frameworks to control cross-channel advertising networks, we build scalable infrastructure built for zero user attrition.
+                </p>
+                <div class="about-features">
+                    <div class="about-feat-item">
+                        <i data-lucide="shield-check"></i>
+                        <span>Zero-framework semantic layout optimization</span>
+                    </div>
+                    <div class="about-feat-item">
+                        <i data-lucide="zap"></i>
+                        <span>Iterative, milestone-driven high velocity delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section-padding border-top">
+        <div class="container">
+            <div class="text-center section-header reveal">
+                <p class="section-tag">Capabilities Matrix</p>
+                <h2 class="section-title">Precision vectors for immediate expansion</h2>
+                <p class="section-subtitle">A comprehensive suite of highly sophisticated digital engineering modules.</p>
+            </div>
+
+            <div class="grid-4 services-grid reveal">
+                <!-- Service 1 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p class="text-muted">Ultra-premium architectures tailored for extreme loading velocity, semantic purity, and perfect cross-device scaling.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="share-2"></i>
+                    </div>
+                    <h3>Social Media Management</h3>
+                    <p class="text-muted">Algorithmic-driven distribution pipelines to generate sustained engagement across professional network matrices.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p class="text-muted">Bespoke corporate design collateral developed with rigorous geometry to solidify elite visual positioning.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="component"></i>
+                    </div>
+                    <h3>Logo Design</h3>
+                    <p class="text-muted">Timeless, high-fidelity vector identities engineered explicitly to retain legibility across every form factor.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3>Thumbnail Design</h3>
+                    <p class="text-muted">Psychologically calibrated asset frameworks focused on maximizing click-through density and visual hierarchy.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p class="text-muted">High-retention macro production optimizing pacing, sound signatures, and narrative dynamics for maximum viewer lock.</p>
+                </div>
+                <!-- Service 7 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <h3>SEO Engineering</h3>
+                    <p class="text-muted">Deep programmatic search crawling enhancement through systematic metadata optimization and index maps.</p>
+                </div>
+                <!-- Service 8 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon-wrapper">
+                        <i data-lucide="activity"></i>
+                    </div>
+                    <h3>Ads Management</h3>
+                    <p class="text-muted">Mathematical deployment schemes tuned to isolate capital efficiency while compressing user acquisition costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section section-padding border-top">
+        <div class="container">
+            <div class="text-center section-header reveal">
+                <p class="section-tag">System Index</p>
+                <h2 class="section-title">Production Pipelines</h2>
+                <p class="section-subtitle">A verified look into the live architectural canvases engineered for active deployment.</p>
+            </div>
+
+            <div class="portfolio-grid reveal">
+                <!-- Portfolio Card -->
+                <div class="glass-card portfolio-card">
+                    <div class="portfolio-meta">
+                        <span class="portfolio-tag">Product Ecosystem</span>
+                        <h3 class="portfolio-item-title">Enterprise Digital Architecture</h3>
+                        <p class="text-muted">A modern sandbox demonstrating state-of-the-art layout configurations, pixel-perfect glassmorphism modules, and interactive user flows built to professional SaaS specifications.</p>
+                    </div>
+                    <div class="portfolio-action-row">
+                        <a href="https://ishrat813.github.io/Portfolio-/" target="_blank" class="btn btn-secondary portfolio-link-btn">
+                            Visit Portfolio <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section section-padding border-top">
+        <div class="container">
+            <div class="text-center section-header reveal">
+                <p class="section-tag">Value Matrix</p>
+                <h2 class="section-title">Linear, fixed-scope investment tiers</h2>
+                <p class="section-subtitle">No multi-layered retainers. Immediate asset ownership under standard protocol contracts.</p>
+            </div>
+
+            <div class="grid-3 pricing-grid reveal">
+                <!-- Plan 1 -->
+                <div class="glass-card pricing-card">
+                    <div class="pricing-header">
+                        <h4>Website Starter</h4>
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="amount">8,000</span>
+                        </div>
+                        <p class="price-desc">Perfect structural engine for launching pristine proof-of-concept portals.</p>
+                    </div>
+                    <hr class="card-divider">
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> 5-Page Semantic Core Architecture</li>
+                        <li><i data-lucide="check"></i> Complete Fluid Responsive Engineering</li>
+                        <li><i data-lucide="check"></i> System-Level Micro-Animations</li>
+                        <li><i data-lucide="check"></i> 90 Days Deployment Lifecycle Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary pricing-btn">Select Deployment</a>
+                </div>
+
+                <!-- Plan 2 (Featured) -->
+                <div class="glass-card pricing-card featured-card">
+                    <div class="featured-badge">Core Standard</div>
+                    <div class="pricing-header">
+                        <h4>Professional Website</h4>
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="amount">18,000</span>
+                        </div>
+                        <p class="price-desc">The default system tier engineered explicitly for high-growth enterprise scale.</p>
+                    </div>
+                    <hr class="card-divider">
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> Bespoke Engine Layout (No Templates)</li>
+                        <li><i data-lucide="check"></i> Premium Custom Interaction Layers</li>
+                        <li><i data-lucide="check"></i> Advanced On-Page Search Integration</li>
+                        <li><i data-lucide="check"></i> Fully Integrated Dynamic Data Nodes</li>
+                        <li><i data-lucide="check"></i> 365 Days Extended Infrastructure Guard</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary pricing-btn">Select Deployment</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="glass-card pricing-card">
+                    <div class="pricing-header">
+                        <h4>Social Media Growth</h4>
+                        <div class="price-display">
+                            <span class="currency">₹</span><span class="amount">5,000</span><span class="period">/mo</span>
+                        </div>
+                        <p class="price-desc">Continuous brand distribution scaling across global social protocols.</p>
+                    </div>
+                    <hr class="card-divider">
+                    <ul class="pricing-features">
+                        <li><i data-lucide="check"></i> 12 Elite Vector Visual Narratives</li>
+                        <li><i data-lucide="check"></i> Strategic Platform Metric Maps</li>
+                        <li><i data-lucide="check"></i> Conversion-Optimized Direct Copywriting</li>
+                        <li><i data-lucide="check"></i> Automated End-Of-Month Audit Log</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary pricing-btn">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+           <!-- FAQ Section (Pure HTML/CSS - No JS Required) -->
+<section id="faq" class="faq-section section-padding border-top">
+    <div class="container container-narrow">
+        <div class="text-center section-header reveal">
+            <p class="section-tag">Resolution Center</p>
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Clear answers about how we build, deliver, and collaborate on your digital assets.</p>
+        </div>
+
+        <div class="faq-accordion reveal">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item glass-card">
+                <input type="radio" name="faq-accordion" id="faq1" class="faq-input">
+                <label for="faq1" class="faq-trigger">
+                    <span>What is your typical turnaround time for a custom website?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </label>
+                <div class="faq-content">
+                    <p>For a standard professional layout or corporate landing framework, deployment takes between 7 to 14 business days. This timeline includes layout engineering, custom asset configuration, and end-to-end responsiveness testing before going live on your domain.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item glass-card">
+                <input type="radio" name="faq-accordion" id="faq2" class="faq-input">
+                <label for="faq2" class="faq-trigger">
+                    <span>Do I fully own the final source code and design assets?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </label>
+                <div class="faq-content">
+                    <p>Absolutely. Once the project parameters are met and final delivery is completed, 100% ownership of the clean source code, graphic source files, vector logos, and social assets is completely transferred to you. No ongoing hidden architectural software locks or mandatory hosting dependencies.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item glass-card">
+                <input type="radio" name="faq-accordion" id="faq3" class="faq-input">
+                <label for="faq3" class="faq-trigger">
+                    <span>How do revisions work if I want to adjust layout details or graphics?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </label>
+                <div class="faq-content">
+                    <p>We work in structural milestone phases. You review the mockups or drafts at specific intervals, and we apply your specific iterations directly. Every fixed-scope package includes dedicated structural revisions to guarantee the output matches your exact visual standards before final production deployment.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item glass-card">
+                <input type="radio" name="faq-accordion" id="faq4" class="faq-input">
+                <label for="faq4" class="faq-trigger">
+                    <span>Can you handle continuous ongoing monthly social media content edits?</span>
+                    <i data-lucide="plus" class="faq-icon"></i>
+                </label>
+                <div class="faq-content">
+                    <p>Yes, we do. Through our dedicated Social Media Matrix module, we engineering continuous monthly graphic narratives, carousels, and high-retention video asset editing. This ensures your brand keeps a premium, unified identity across your entire digital pipeline without you needing an in-house design team.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding border-top">
+        <div class="container">
+            <div class="grid-2">
+                <div class="reveal">
+                    <p class="section-tag">Terminal Entry</p>
+                    <h2 class="section-title">Initiate your project onboarding architecture</h2>
+                    <p class="text-muted contact-desc">Connect securely with our operational cell to translate your brand objectives into elite structural digital realities.</p>
+                    
+                    <div class="contact-info-list">
+                        <div class="info-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Direct Line Link</h4>
+                                <p><a href="tel:+917891798360">+91 7891798360</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Secure Communications Mesh</h4>
+                                <p><a href="mailto:ishratnisa@outlook.com">ishratnisa@outlook.com</a></p>
+                                <p><a href="mailto:ishratnisa1308@gmail.com">ishratnisa1308@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i data-lucide="linkedin"></i>
+                            <div>
+                                <h4>Corporate Index Graph</h4>
+                                <p><a href="https://www.linkedin.com/in/ishrat-nisa-358664365" target="_blank">linkedin.com/in/quantum-web</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="glass-card contact-form-card reveal">
+                    <form id="agencyContactForm">
+                        <div class="form-group">
+                            <label for="clientName">Full Identity / Corporate Name</label>
+                            <input type="text" id="clientName" required placeholder="e.g., Alex Mercer / Nexa Labs">
+                        </div>
+                        <div class="form-group">
+                            <label for="clientEmail">Secure Corporate Email Address</label>
+                            <input type="email" id="clientEmail" required placeholder="e.g., alex@nexalabs.io">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Target Strategic Module</label>
+                            <select id="projectType">
+                                <option value="web-dev">Website Development Core</option>
+                                <option value="social-growth">Social Media Management Matrix</option>
+                                <option value="brand-identity">Bespoke Structural Graphic Suite</option>
+                                <option value="other">Full-Stack Custom Engine Contract</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="clientMessage">Operational Objectives & Parameters</label>
+                            <textarea id="clientMessage" rows="5" required placeholder="Detail specific timeline milestones or critical objectives..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">
+                            <span>Transmit Parameters</span> <i data-lucide="send"></i>
+                        </button>
+                    </form>
+                    <div class="form-success-message" id="formSuccess">
+                        <i data-lucide="check-circle" class="success-icon"></i>
+                        <h3>Payload Transmitted Successfully</h3>
+                        <p>Our network team has successfully captured your parameters. Expect structural response matrix within 12 business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-wrapper border-top">
+        <div class="container footer-content">
+            <p>&copy; 2026 QUANTUM WEB. All architectural standards preserved.</p>
+            <div class="footer-meta-links">
+                <a href="#home">Back to Top</a>
+                <a href="https://ishrat813.github.io/Portfolio-/" target="_blank">Production Pipeline</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action -->
+    <a href="https://wa.me/917891798360" class="whatsapp-floating" target="_blank" aria-label="Open secure WhatsApp gateway">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="whatsapp-svg">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+
+    <!-- Initialize icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
